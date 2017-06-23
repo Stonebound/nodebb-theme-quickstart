@@ -1,10 +1,7 @@
 {
-  "name": "nodebb-theme-quickstart",
-  "version": "0.0.0",
-  "description": "Enter a description here",
+  "name": "nodebb-theme-stonebound",
+  "version": "0.1.0",
+  "description": "A Persona child theme made for Stonebound.net",
   "main": "theme.less",
-  "keywords": [
-
-  ],
   "license": "MIT"
 }

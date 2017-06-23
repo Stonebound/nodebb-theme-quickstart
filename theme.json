@@ -1,6 +1,6 @@
 {
-    "id": "nodebb-theme-quickstart",
-    "name": "My Theme Name",
-    "description": "Enter a description here",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart"
+    "id": "nodebb-theme-stonebound",
+    "name": "Stonebound's Persona",
+    "description": "A Persona child theme made for Stonebound.net",
+    "url": "https://github.com/Stonebound/nodebb-theme-stonebound"
 }
