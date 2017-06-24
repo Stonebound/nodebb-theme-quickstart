@@ -2,5 +2,6 @@
     "id": "nodebb-theme-stonebound",
     "name": "Stonebound's Persona",
     "description": "A Persona child theme made for Stonebound.net",
+    "screenshot": "preview.png",
     "url": "https://github.com/Stonebound/nodebb-theme-stonebound"
 }

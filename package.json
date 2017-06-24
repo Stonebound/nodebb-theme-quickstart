@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-stonebound",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Persona child theme made for Stonebound.net",
   "main": "theme.less",
   "license": "MIT"
