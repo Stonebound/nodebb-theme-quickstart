@@ -5,7 +5,8 @@
 		<h1 class="fullname"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></h1>
 		<h2 class="username"><!-- IF !banned -->@{username}<!-- ELSE -->[[user:banned]]<!-- ENDIF !banned --></h2>
 
-
+        <!-- IMPORT partials/awards_profile_flex.tpl -->
+        
 		<!-- IF selectedGroup.slug -->
 		<div class="text-center">
 			<a href="{config.relative_path}/groups/{selectedGroup.slug}"><small class="label group-label inline-block" style="background-color: {selectedGroup.labelColor};"><!-- IF selectedGroup.icon --><i class="fa {selectedGroup.icon}"></i> <!-- ENDIF selectedGroup.icon -->{selectedGroup.userTitle}</small></a>
@@ -122,7 +123,7 @@
 	<!-- ENDIF ips.length -->
 
 	<div class="row">
-		<div class="col-xs-9">
+		<div class="col-xs-12">
 			<h1>[[pages:account/posts, {username}]]</h1>
 
 			<div class="col-xs-12">
@@ -135,10 +136,6 @@
 				<!-- ENDIF config.usePagination -->
 			</div>
 		</div>
-        <div class="col-xs-3">
-			<h1>Awards</h1>
-			<!-- IMPORT partials/awards_profile.tpl -->
-        </div>
 	</div>
 
 	<div id="user-action-alert" class="alert alert-success hide"></div>
